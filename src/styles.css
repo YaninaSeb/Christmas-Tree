@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Penguin';
+  src: url("./assets/fonts/penguinattackcyrillic.woff2");
+}
+* {
+  font-family: 'Penguin';
+}
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1920px;
+  max-height: 1080px;
+}
+header {
+  width: 100vw;
+  height: 10vh;
+  font-size: 2vw;
+  color: white;
+  text-align: center;
+  background-color: #121C1E;
+}
+.page {
+  width: 100vw;
+  height: 85vh;
+  background: url('./assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.1vw;
+  color: white;
+  text-align: center;
+  background-color: #121C1E;
+}
+.link-github {
+  margin-left: -25%;
+}
+.link-github a {
+  text-decoration:none;
+  color: white;
+}
+.img-rss {
+  height: 3vh;
+}
+.link-github:hover,
+.img-rss {
+  cursor: pointer;
+}
+
+  /* header */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.head-nav_pages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.link-to_page-home {
+  width: 2.6vw;
+  height: 6vh;
+  margin-left: 20px;
+  background-image: url('./assets/svg/tree.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.link-to_page-home:hover {
+  filter: invert(57%) sepia(100%) saturate(329%) hue-rotate(141deg) brightness(89%) contrast(90%);
+}
+.link-to_page_toys,
+.link-to_page_trees {
+  text-decoration: none;
+  transition: 0.3s;
+  margin-left: 45px;
+  margin-top: 10px;
+  font-size: 1.8vw;
+}
+.link-to_page_toys:hover,
+.link-to_page_trees:hover {
+  color: #278D9F;
+  cursor: pointer;
+}
+.head-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+.search {
+  width: 22vw;
+  height: 5vh;
+  border-radius: 20px;
+  border: 1px solid #278D9F;
+  padding: 10px 15px;
+  padding-right: 2vw;
+  font-size: 1.3vw;
+  color: #fff;
+  background-color: rgba(31, 112, 127, 0.4);
+  cursor: pointer;
+  outline: 0;
+  background-image: url('./assets/svg/search.svg');
+  background-repeat: no-repeat;
+  background-position: 97%;
+  background-size: 1vw;
+}
+.elect_toys {
+  position: relative;
+  width: 3.5vw;
+  height: 3.5vw;
+  margin-left: 2vw;
+  background-image: url('./assets/svg/ball-2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.elect_toys span {
+  position: absolute;
+  top: 31%;
+  right: 30%;
+  width: 2.3vw;
+  height: 2.3vw;
+  border-radius: 50%;
+  background-color: #278D9F;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.8vw;
+}
+
+.hide {
+  display: none;
+}

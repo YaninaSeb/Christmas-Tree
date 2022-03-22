@@ -1,0 +1,79 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+.home-ball-left {
+  position: absolute;
+  top: 25vh;
+  left: 15vw;
+  background: url('./../../assets/ball/1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30vw;
+  height: 30vw;
+}
+.home-ball-left:before {
+  position: absolute;
+  top: -15vh;
+  left: 12.2vw;
+  content: '';
+  height: 15.5vh;
+  width: 0.3vw;
+  background-color: #aaa;
+}
+.home-ball-right {
+  position: absolute;
+  top: 25vh;
+  right: 15vw;
+  background: url('./../../assets/ball/2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20vw;
+  height: 20vw;
+}
+.home-ball-right:before {
+  position: absolute;
+  top: -15vh;
+  right: 12vw;
+  content: '';
+  height: 15.5vh;
+  width: 0.3vw;
+  background-color: #aaa;
+}
+.name-game {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  width: 35vw;
+  height: 12vw;
+  padding-top: 2.5vh;
+  flex-wrap: wrap;
+  background-color: rgba(31, 112, 127, 0.3);
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  border: 1px solid #278D9F;
+  color: white;
+  font-size: 3.8vw;
+  text-align: center;
+  line-height: 9vh;
+}
+.btn-play-game {
+  position: absolute;
+  bottom: 18%;
+  left: 43%;
+  width: 20vw;
+  height: 4vw;
+  background-color: rgba(31, 112, 127, 0.3);
+  backdrop-filter: blur(6px);
+  border-radius: 40px;
+  border: 1px solid #278D9F;
+  color: white;
+  font-size: 2.5vw;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.btn-play-game:hover {
+  background-color: rgb(31, 112, 127);
+  transform: scale(1.2);
+}
