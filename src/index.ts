@@ -1,0 +1,10 @@
+import './styles.css';
+import './pages/toys/slider';
+import './pages/toys/cards';
+import './pages/toys/filter';
+import './pages/main/navigation';
+import './pages/tree/trees';
+import './pages/tree/elect_toys';
+import './pages/tree/snow';
+import './pages/tree/drag_and_drop_toys';
+import './pages/tree/garland';
